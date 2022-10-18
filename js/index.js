@@ -34,9 +34,9 @@ $(document).ready(function() {
     
    
     // delete cart item
-    if (localStorage.getItem('carts')===undefined) {
+    // if (localStorage.getItem('carts')===undefined) {
         initialCart()
-    }
+    // }
 
 
     //end
