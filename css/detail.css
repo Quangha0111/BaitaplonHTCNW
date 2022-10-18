@@ -1,0 +1,131 @@
+#SL {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.gift {
+  font-size: 12px;
+}
+.gift a {
+  text-decoration: none;
+  color: black;
+}
+.gift :hover a {
+  color: blue;
+  font-weight: bold;
+}
+.gift p {
+  margin-bottom: 2px;
+}
+.doitra {
+  margin-top: 10px;
+  width: 585px;
+  font-size: small;
+  font-weight: bold;
+  border: solid 1px;
+  padding: 10px;
+}
+.doitra a {
+  text-decoration: none;
+  color: black;
+}
+.doitra :hover a {
+  color: blue;
+  font-weight: lighter;
+}
+.doitra p {
+  margin-bottom: 3px;
+}
+.addcart {
+  width: 585px;
+  height: 55px;
+  padding: 5px;
+  color: white;
+  background-color: #288ad6;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+}
+.addcart h5 {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.addcart p {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.buyproduct {
+  width: 585px;
+  height: 55px;
+  padding: 5px;
+  color: white;
+  background-color: #f59000;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+}
+.buyproduct h5 {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.buyproduct p {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.usefullinfo a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+.nut {
+  border-radius: 10px;
+  background-color: white;
+  border: solid 1px black;
+}
+.product-title {
+  padding: 15px;
+  border: solid 2px rgb(222, 191, 191);
+  width: 150px;
+  border-radius: 15px;
+  
+
+}
+.product-title a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: solid 2px rgb(125, 124, 124);
+  border-radius: 10px;
+  padding: 8px;
+  margin-left: 20px;
+}
+.product-title a:hover {
+  color: white;
+  background-color: red;
+  border: none;
+}
+.vote {
+  border: solid 1px black;
+  padding: 20px;
+}
+.vote .row .col-3 {
+  margin-top: 85px;
+}
+.vote .row .col-4 {
+  border-left: solid 1px rgb(107, 104, 103);
+  border-right: solid 1px rgb(107, 104, 103);
+}
+.vote .row .col-5 {
+  margin-top: 85px;
+}
+.vote .row .col-5 a {
+  text-decoration: none;
+  border: solid 1px black;
+  background-color: #f0ec06;
+  color: black;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}

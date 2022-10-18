@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Giỏ Hàng</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.css.map">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="go_to_top">
+    <i class="fa-solid fa-angles-up"></i>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-5 d-flex justify-content-start">
+        <a href="index.html" class="logo "><img src="./../img/download.png" class="w-100 p-2 " alt=""></a>
+        <form class="form-inline">
+          <div class="form-group">
+            <input type="search" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+            <button type="button" name="" id="" class="btn btn-primary search-btn"><i
+                class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </form>
+      </div>
+      <div class="col-7 row">
+        <div class="col-7 row justify-content-around">
+          <a href="#" class="d-flex flex-column align-items-center justify-content-center py-2 px-1 text-dark login"><i
+              class="fa-solid fa-user icon " data-toggle="modal" data-target="#loginModal"></i> Đăng
+            nhập</a>
+          <a href="register.html"
+            class="d-flex flex-column align-items-center justify-content-center py-2 px-1 text-dark "><i
+              class="fa-solid fa-user-plus icon"></i> Đăng kí</a>
+          <a href="Cart.html"
+            class="d-flex flex-column align-items-center justify-content-center py-2 px-1 text-dark "><i
+              class="fa-solid fa-cart-shopping icon"></i> Giỏ hàng</a>
+        </div>
+        <div class="col-5">
+          <p class=" p-3"><i class="fa-solid fa-phone icon"></i>Hotline <br> <a href="tel:0593113112"
+              class="text-danger font-weight-bold">0593 113 112</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid header  sticky-top">
+		<div class="container">
+			<nav class="navbar navbar-expand-sm " style="justify-content: flex-end;">
+				<button class="navbar-toggler d-lg-none mr-0" type="button" data-toggle="collapse"
+					data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+					aria-label="Toggle navigation"><i class="fa-solid fa-rectangle-list"></i></button>
+				<div class="collapse navbar-collapse" id="collapsibleNavId">
+
+					<ul class="menu navbar-nav justify-content-left">
+						<li><a href="guitar.html"
+								class="d-flex flex-column align-items-center justify-content-center menutop__link "><img
+									src="./../img/guitar-icon-tygy.png" alt="" width="30px"> Guitar</a></li>
+						<li><a href="guitar.html"
+								class="d-flex flex-column align-items-center justify-content-center menutop__link"><img
+									src="../img/piano-icon-tygy-1.png" alt="" width="30px"> Piano</a></li>
+						<li><a href="products.html"
+								class="d-flex flex-column align-items-center justify-content-center menutop__link"><img
+									src="../img/organ-icon.png" alt="" width="30px"> Organ</a></li>
+						<li><a href="products.html"
+								class="d-flex flex-column align-items-center justify-content-center menutop__link"><img
+									src="../img/drum-icon-tygy.png" alt="" width="33px"> Nhạc cụ khác</a></li>
+						<li><a href="products.html"
+								class="d-flex flex-column align-items-center justify-content-center menutop__link"><img
+									src="../img/tin-tuc-icon-tygy-2.png" alt="" width="30px"> Danh mục sản phẩm</a></li>
+						<li><a href="sitemap.html"
+								class="d-flex flex-column align-items-center justify-content-center menutop__link"><img
+									src="../img/tin-tuc-icon-tygy-2.png" alt="" width="30px">Site Map</a></li>
+						<li><a href="introduce.html"
+								class="d-flex flex-column align-items-center justify-content-center menutop__link"><img
+									src="../img/tin-tuc-icon-tygy-2.png" alt="" width="30px">Thành Viên</a></li>
+					</ul>
+
+				</div>
+
+			</nav>
+
+		</div>
+	</div>
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col-lg-8 col-md-6 col-xs-12 col-sm-12 ">
+        <section class="h-100 h-custom" style="background-color: #eee;">
+          <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+              <div class="col">
+                <div class="card">
+                  <div class="card-body p-4">
+
+                    <div class="row">
+                      <div class="col-m-auto">
+                        <h5 class="mb-3"><a href="detail.html" class="text-body"><i
+                              class="fas fa-long-arrow-alt-left me-2"></i>Quay Lại</a></h5>
+                        <hr>
+
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                          <div>
+                            <p class="mb-1">Giỏ hàng của bạn</p>
+                          </div>
+                          <div>
+                            <p class="mb-0"><span class="text-muted">Sort by:</span> <a href="#!"
+                                class="text-body">price <i class="fas fa-angle-down mt-1"></i></a></p>
+                          </div>
+                        </div>
+                        <div class="cart-main">
+
+                        </div>
+                        <!-- <div class="card mb-3">
+                                    <div class="card-body">
+                                      <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div>
+                                            <img
+                                              src="../img/dan_guitar_dien_yamaha_pac612viifm_xanhx500x500x4.jpg"
+                                              class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                          </div>
+                                          <div class="ms-3">
+                                            <h5>Đàn guitar điện Yamaha</h5>
+                                            <p class="small mb-0">Màu xanh</p>
+                                          </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center" >
+                                          <div class="px-2 btn_sub " style="cursor: pointer;">-</div> 
+                                           <input class="fw-normal mb-0 " type="number" min="0"  id="quality" value="2" style="width: 50px;"/>
+                                           <div class="px-2 btn_add" style="cursor: pointer;">+</div>
+                                         </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                         
+                                          <div style="width: 80px;">
+                                            <h5 class="mb-0" id="giasp1">900</h5>
+                                          </div>
+                                          <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3">
+                                    <div class="card-body">
+                                      <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div>
+                                            <img
+                                              src="../img/dan_guitar_dien_yamaha_pac612viifm_xanhx500x500x4.jpg"
+                                              class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                          </div>
+                                          <div class="ms-3">
+                                            <h5>Đàn guitar điện Yamaha</h5>
+                                            <p class="small mb-0">Màu xanh</p>
+                                          </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center" >
+                                          <div class="px-2 btn_sub " style="cursor: pointer;">-</div> 
+                                           <input class="fw-normal mb-0 " type="number" value="2" style="width: 50px;"/>
+                                           <div class="px-2 btn_add" style="cursor: pointer;">+</div>
+                                         </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                         
+                                          <div style="width: 80px;">
+                                            <h5 class="mb-0">$900</h5>
+                                          </div>
+                                          <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-3">
+                                    <div class="card-body">
+                                      <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div>
+                                            <img
+                                              src="../img/dan_guitar_dien_yamaha_pac612viifm_xanhx500x500x4.jpg"
+                                              class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                          </div>
+                                          <div class="ms-3">
+                                            <h5>Đàn guitar điện Yamaha</h5>
+                                            <p class="small mb-0">Màu xanh</p>
+                                          </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center" >
+                                          <div class="px-2 btn_sub " style="cursor: pointer;">-</div> 
+                                           <input class="fw-normal mb-0 " type="number" value="2" style="width: 50px;"/>
+                                           <div class="px-2 btn_add" style="cursor: pointer;">+</div>
+                                         </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                         
+                                          <div style="width: 80px;">
+                                            <h5 class="mb-0">$900</h5>
+                                          </div>
+                                          <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div> -->
+
+
+                        <!-- <div class="card mb-3">
+                                    <div class="card-body">
+                                      <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div>
+                                            <img
+                                              src="../img/dan_guitar_acosutic_lv220x500x500x4.jpg"
+                                              class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                          </div>
+                                          <div class="ms-3">
+                                            <h5>Đàn Guitar Acoustic</h5>
+                                            <p class="small mb-0">Mặt thông, Gỗ nguyên tấm, dáng A</p>
+                                          </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div style="width: 50px;">
+                                            <h5 class="fw-normal mb-0">2</h5>
+                                          </div>
+                                          <div style="width: 80px;">
+                                            <h5 class="mb-0">$900</h5>
+                                          </div>
+                                          <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                  
+                                  <div class="card mb-3">
+                                    <div class="card-body">
+                                      <div class="d-flex justify-content-between">
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div>
+                                            <img
+                                              src="../img/guitar_dien_yamaha_pac212vqm_sunburstx500x500x4.jpg"
+                                              class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                                          </div>
+                                          <div class="ms-3">
+                                            <h5>Guitar điện Yamaha VPM</h5>
+                                            <p class="small mb-0">Onyx Black</p>
+                                          </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center">
+                                          <div style="width: 50px;">
+                                            <h5 class="fw-normal mb-0">1</h5>
+                                          </div>
+                                          <div style="width: 80px;">
+                                            <h5 class="mb-0">$1199</h5>
+                                          </div>
+                                          <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt"></i></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+      </div>
+      <div class="col-lg-4 col-md-6 col-xs-12 col-sm-12">
+        <div class="card bg-primary text-white rounded-3">
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+              <h5 class="mb-0 ">THÔNG TIN ĐƠN HÀNG</h5>
+            </div>
+            <form class="mt-4">
+              <div class="form-outline form-white mb-4">
+                <input type="text" id="typeText" class="form-control form-control-lg" siez="17"
+                  placeholder="Thông tin người nhận" minlength="19" maxlength="19" />
+                <label class="form-label" for="typeText">Thông tin người nhận</label>
+              </div>
+
+
+              <div class="form-outline form-white mb-4">
+                <input type="text" id="typeName" class="form-control form-control-lg" siez="17"
+                  placeholder="123 Nguyen Van Bao, P4, Quan Go Vap, Tp.HCM" />
+                <label class="form-label" for="address">Địa Chỉ</label>
+              </div>
+
+              <div class="form-outline form-white mb-4">
+                <input type="text" id="typeText" class="form-control form-control-lg" siez="17"
+                  placeholder="+84 123 456 789" minlength="19" maxlength="19" />
+                <label class="form-label" for="typeText">Số điện thoại</label>
+              </div>
+
+
+
+
+            </form>
+
+            <hr class="my-4">
+
+            <div class="d-flex justify-content-between">
+              <p class="mb-2 ">Tổng Đơn Hàng</p>
+              <p class="mb-2 sub_total">$4798.00</p>
+            </div>
+
+            <div class="d-flex justify-content-between">
+              <p class="mb-2">Shipping</p>
+              <p class="mb-2">20.00</p>
+            </div>
+
+            <div class="d-flex justify-content-between mb-4">
+              <p class="mb-2">Thành tiền</p>
+              <p class="mb-2 total">$4818.00</p>
+            </div>
+
+            <button type="button" class="btn btn-info btn-block btn-lg">
+              <div class="d-flex justify-content-between">
+                <span class="total" >$200</span>
+                <span>Thanh Toán <i class="fas fa-long-arrow-alt-right ms-2"></i></span>
+              </div>
+            </button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <footer class="container-fluid mt-5">
+    <div class="container">
+      <div class=" row py-4">
+        <div class="col-md-8 col-sm-12 col-xs-12 row">
+          <div class="col-md-4 col-xs-12 col-sm-12 text-ft ">
+            <h5>Chính Sách </h5>
+            <a href="#">Chính sách giao hàng</a> <br>
+            <a href="#">Chính sách bảo hành đổi trả</a> <br>
+            <a href="#">Chính sách thanh toán</a> <br>
+            <a href="#">Chính sách bảo mật thông tin</a>
+
+          </div>
+          <div class="col-md-4 col-xs-12 col-sm-12 text-ft">
+            <h5> Dịch Vụ - Hậu Mãi</h5>
+            <a href="#">Mua bán trao đổi nhạc cụ</a> <br>
+            <a href="#">Sửa chữa thay thế phụ kiện</a> <br>
+            <a href="#">Các chính sách hậu mãi</a> <br>
+
+          </div>
+          <div class="col-md-4 col-xs-12 col-sm-12 text-ft">
+            <h5> Giới thiệu thành viên</h5>
+            <a href="#">Thành viên nhóm</a> <br>
+            <a href="#">Liên hệ</a> <br>
+
+
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12 col-sm-12">
+          <div>
+            <p> <i>Thời gian làm việc: 8h - 21h (thứ 2 đến chủ nhật)</i></p>
+            <p> <b>ĐH IUH</b> Số 12 Nguyễn Văn Bảo, phường 3, Quận Gò Vấp, thành phố Hồ Chí Minh</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<script src="../js/jquery-3.6.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="./../js/index.js"></script>
+
+<script>
+
+  $(document).ready(function () {
+    $('.login').click((e) => {
+      $('#loginModal').modal('show');
+    })
+    var cart = $('.cart-main')
+    const loadCart = function () {
+      const carts = JSON.parse(localStorage.getItem('carts'))
+      cart.html(
+      carts.map((c) => {
+        return `
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex flex-row align-items-center">
+                        <div>
+                          <img
+                            src="${c.product.url}"
+                            class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                        </div>
+                        <div class="ms-3">
+                          <h5>${c.product.name}</h5>
+                          <p class="small mb-0">${c.product.category}</p>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-row align-items-center" >
+                        <div class="px-2 btn_sub " style="cursor: pointer;" onClick="sub_quantity(this)">-</div> 
+                          <input class="fw-normal mb-0 " type="number" min="0" data-id=${c.id}  id="quality" value="${c.quantity}" style="width: 50px;"/>
+                          <div class="px-2 btn_add" style="cursor: pointer;" onClick="add_quantity(this)">+</div>
+                        </div>
+                      <div class="d-flex flex-row align-items-center">
+                        
+                        <div style="width: 80px;">
+                          <h5 class="mb-0" id="giasp1">${c.product.price}</h5>
+                        </div>
+                        <a href="#!" style="color: #cecece;"><i class="fas fa-trash-alt delete"  onClick="deleteItem(${c.id});"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              `
+      })
+    )
+    }
+    loadCart()
+  });
+  
+</script>
+
+
+</html>
